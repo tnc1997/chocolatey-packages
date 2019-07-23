@@ -18,7 +18,7 @@
     <copyright>OpenTTD Team</copyright>
     <projectUrl>https://www.openttd.org</projectUrl>
     <licenseUrl>https://github.com/OpenTTD/OpenTTD/blob/master/COPYING</licenseUrl>
-    <iconUrl>https://cdn.rawgit.com/tnc1997/chocolatey-packages/master/icons/openttd.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/tnc1997/chocolatey-packages@master/icons/openttd.png</iconUrl>
     <docsUrl>https://wiki.openttd.org</docsUrl>
     <bugTrackerUrl>https://github.com/OpenTTD/OpenTTD/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/OpenTTD/OpenTTD</projectSourceUrl>
