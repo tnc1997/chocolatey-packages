@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>openttd</id>
+    <title>OpenTTD</title>
+    <version>1.9.2</version>
+    <authors>OpenTTD Team</authors>
+    <owners>marsjaninzmarsa, tnc1997</owners>
+    <summary>OpenTTD is a transport simulation game based upon the popular game Transport Tycoon Deluxe, written by Chris Sawyer</summary>
+    <description>
+        OpenTTD is a transport simulation game based upon the popular game Transport Tycoon Deluxe, written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.
+        
+        **Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.
+    </description>
+    <tags>game simulation strategy</tags>
+    <copyright>OpenTTD Team</copyright>
+    <projectUrl>https://www.openttd.org</projectUrl>
+    <licenseUrl>https://github.com/OpenTTD/OpenTTD/blob/master/COPYING</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/tnc1997/chocolatey-packages/master/icons/openttd.png</iconUrl>
+    <docsUrl>https://wiki.openttd.org</docsUrl>
+    <bugTrackerUrl>https://github.com/OpenTTD/OpenTTD/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/OpenTTD/OpenTTD</projectSourceUrl>
+    <packageSourceUrl>https://github.com/tnc1997/chocolatey-packages/tree/master/automatic/openttd</packageSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/OpenTTD/OpenTTD/blob/master/changelog.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

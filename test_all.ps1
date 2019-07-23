@@ -24,20 +24,20 @@ $options = [ordered]@{
     Push = $false
 
     Report = @{
-        Type = 'markdown'                                   #Report type: markdown or text
-        Path = "$PSScriptRoot\Update-Force-Test-${n}.md"      #Path where to save the report
-        Params= @{                                          #Report parameters:
-            Github_UserRepo = $Env:github_user_repo         #  Markdown: shows user info in upper right corner
-            NoAppVeyor  = $false                            #  Markdown: do not show AppVeyor build shield
-            Title       = "Update Force Test - Group ${n}"
-            UserMessage = "[Update report](https://gist.github.com/$Env:gist_id) | **USING AU NEXT VERSION**"       #  Markdown, Text: Custom user message to show
+        Type   = 'markdown'                                  # Report type: markdown or text
+        Path   = "$PSScriptRoot\Update-Force-Test-${n}.md"   # Path where to save the report
+        Params = @{                                          # Report parameters:
+            Github_UserRepo = $Env:github_user_repo          # Markdown: shows user info in upper right corner
+            NoAppVeyor      = $false                         # Markdown: do not show AppVeyor build shield
+            Title           = "Update Force Test - Group ${n}"
+            UserMessage     = "[Update report](https://gist.github.com/$Env:gist_id) | **USING AU NEXT VERSION**"
         }
     }
 
     Gist = @{
-        Id     = $Env:gist_id_test                          #Your gist id; leave empty for new private or anonymous gist
-        ApiKey = $Env:github_api_key                        #Your github api key - if empty anoymous gist is created
-        Path   = "$PSScriptRoot\Update-Force-Test-${n}.md"       #List of files to add to the gist
+        Id          = $Env:gist_id_test                          # Your gist id; leave empty for new private or anonymous gist
+        ApiKey      = $Env:github_api_key                        # Your github api key - if empty anoymous gist is created
+        Path        = "$PSScriptRoot\Update-Force-Test-${n}.md"  # List of files to add to the gist
         Description = "Update Force Test Report #powershell #chocolatey"
     }
 }
