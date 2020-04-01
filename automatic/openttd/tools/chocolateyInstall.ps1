@@ -2,10 +2,10 @@
 
 $packageName = "openttd"
 $fileType    = "exe"
-$url32       = "https://proxy.binaries.openttd.org/openttd-releases/1.9.3/openttd-1.9.3-windows-win32.exe"
-$url64       = "https://proxy.binaries.openttd.org/openttd-releases/1.9.3/openttd-1.9.3-windows-win64.exe"
-$checksum32  = "ee8439e2e00b66059cfea84a82da578765991b1b57fbd79f133bc43478caf249"
-$checksum64  = "57099056f49fbb712e59079a55be10aa54f69b3a5018b84d73c014d9a3d857cb"
+$url32       = "https://proxy.binaries.openttd.org/openttd-releases/1.10.0/openttd-1.10.0-windows-win32.exe"
+$url64       = "https://proxy.binaries.openttd.org/openttd-releases/1.10.0/openttd-1.10.0-windows-win64.exe"
+$checksum32  = "7ac18b8c6dd2d40b36c5c9a112fad349f9259db5a10e1ef33e4f44756cbf8d42"
+$checksum64  = "51731f88d5a28de7694c08a897af469b0027463e3b261c6f051d34128773840c"
 
 $packageArgs = @{
   packageName    = $packageName
