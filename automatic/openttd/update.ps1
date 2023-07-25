@@ -17,9 +17,9 @@ function global:au_GetLatest {
     $Release = Invoke-WebRequest -Uri $Uri -UseBasicParsing | ConvertFrom-Json
 
     $Version = $Release.tag_name
-    $Url32 = "https://proxy.binaries.openttd.org/openttd-releases/" + $Version + "/openttd-" + $Version + "-windows-win32.exe"
-    $Url64 = "https://proxy.binaries.openttd.org/openttd-releases/" + $Version + "/openttd-" + $Version + "-windows-win64.exe"
-
+    $Url32 = "https://cdn.openttd.org/openttd-releases/" + $Version + "/openttd-" + $Version + "-windows-win32.exe"
+    $Url64 = "https://cdn.openttd.org/openttd-releases/" + $Version + "/openttd-" + $Version + "-windows-win64.exe"
+    
     $Latest = @{
         URL32 = $Url32
         URL64 = $Url64
