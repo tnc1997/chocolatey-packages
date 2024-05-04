@@ -2,10 +2,10 @@
 
 $packageName = "openttd"
 $fileType    = "exe"
-$url32       = "https://cdn.openttd.org/openttd-releases/14.0/openttd-14.0-windows-win32.exe"
-$url64       = "https://cdn.openttd.org/openttd-releases/14.0/openttd-14.0-windows-win64.exe"
-$checksum32  = "8e26cffef7f762cf6882d9bf78c6c41ec05f82669f8b8a7342c0227c5642d6be"
-$checksum64  = "8594cae19e12061efbf4ec41b70cc2023e78ac8f613b5c805e53ac53b5740861"
+$url32       = "https://cdn.openttd.org/openttd-releases/14.1/openttd-14.1-windows-win32.exe"
+$url64       = "https://cdn.openttd.org/openttd-releases/14.1/openttd-14.1-windows-win64.exe"
+$checksum32  = "ae74db42797b73713124ae633c241f701c6cacec582b9f41ae0fa8a4b4537140"
+$checksum64  = "06c44cb90653e48507e3e5050e698cae1efd52a593e754ac288f165cdf5a5579"
 
 $packageArgs = @{
   packageName    = $packageName
